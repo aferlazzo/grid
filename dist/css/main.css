@@ -336,6 +336,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    /* display: none; */
 }
 .brick {
     background-color: #000;
@@ -344,6 +345,7 @@ body {
     position: absolute;
     animation: first_brick 6s forwards;
 }
+/*
 .brick.brick_0 {
     left: 0rem;
     top: 0rem;
@@ -356,4 +358,28 @@ body {
     left: 2rem;
     top: 2rem;
 }
+*/
 
+
+.button--button-border-thin {
+    border: 2px solid #000;
+}
+
+.workspace button {
+    background-color:transparent;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    outline: none;
+    font-weight: 700;
+    color: #000;
+}
+.workspace button:hover,
+.workspace button:focus {
+    color: red;
+}
+.button--button-border-thin:hover,
+.button--button-border-thin:focus {
+    border-color: red;
+}
